@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freire Odontologia</title>
+    <link rel="stylesheet" href="../assets/css/mini-carousel.css">
+    <link rel="stylesheet" href="../assets/css/sobre.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/icons.css">
+    <link rel="stylesheet" href="../assets/css/buttons-sobre.css">
+    <link rel="stylesheet" href="../assets/css/contato-flex.css">
+    <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/subpages.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!--Nav-->
+        <header id="topo">
+            <nav id="nav">
+                <img class="logo" src="../assets/img/logo2.png" alt="Logo" id="logo">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../sobre.html">Sobre</a></li>
+                    <li><a href="../equipe.html">Equipe</a></li>
+                    <li onmouseenter="openSubmenu(this)" onmouseleave="closeSubmenu(this)">
+                        <a href="../tratamentos.html">Tratamentos</a>
+                        <ul class="submenu">
+                            <li><a href="implante.html">Implante Dentário</a></li>
+                            <li><a href="protese.html">Prótese Total Fixa</a></li>
+                            <li><a href="estetica.html">Estética Dental</a></li>
+                            <li><a href="lente.html">Lente de Contato Dental</a></li>
+                            <li><a href="cirurgia.html">Cirurgia Oral</a></li>
+                            <li><a href="periodontia.html">Periodontia</a></li>
+                            <li><a href="canal.html">Tratamento de Canal</a></li>
+                        </ul>
+                    </li>
+                    <li class="active" onmouseenter="openSubmenu(this)" onmouseleave="closeSubmenu(this)">
+                        <a href="../diferenciais.html" class="supermenu">Diferenciais</a>
+                        <ul class="submenu">
+                            <li><a href="checkup.html">Check-Up Odontológico</a></li>
+                            <li><a href="harmonizacao.html">Harmonização Facial</a></li>
+                            <li><a href="bichetomia.html">Bichetomia</a></li>
+                            <li><a href="preenchimento.html">Preenchimento Facial</a></li>
+                            <li><a href="visagismo.html">Visagismo</a></li>
+                            <li><a href="bucomaxilofacial.html">Bucomaxilofacial</a></li>
+                            <li><a href="laserterapia.html">Laserterapia</a></li>
+                            <li><a href="bruxismo.html">Tratamento de Bruxismo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../contato.html">Contato</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/freireodontologia/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=SEU_NUMERO_DE_TELEFONE" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/seu_perfil/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main  -->
+        <section id="main">
+            <div class="divs">
+                <!--Tratamentos -->
+                <article class="tratamentos">
+                    <div class="tratamentos-container">
+                        <div class="tratamento-content">
+                            <img src="../assets/img/bruxismo.jpg" alt="Imagem 1" class="imagem-tratamento">
+                            <div class="info-tratamento">
+                                <h3>Tratamento de Bruxismo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit justo quis
+                                    nulla lacinia, a condimentum nisi ultricies. Integer non magna sit amet felis
+                                    fermentum efficitur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Contato -->
+                <article class="contato">
+                    <h3>Entre em contato com a unidade mais próxima de você!</h3>
+                    <p>Estamos aqui para ajudar. Entre em contato conosco para agendar uma consulta ou tirar suas
+                        dúvidas.</p>
+
+                    <div class="informacao-container">
+                        <div class="informacoes">
+                            <img src="../assets/img/logo.png" alt="">
+                            <p class="destaque">Freire Odontologia</p>
+                            <p>Cirurgião-dentista Responsável Técnico:</p>
+                            <p class="destaque"> DR. Lauro Henriques Freire</p>
+                            <p>CRO/ES- 2974 | ES-EPAO- 2326</p>
+                            <p class="destaque">HORÁRIO DE FUNCIONAMENTO:</p>
+                            <p>Segunda a Sexta: 8h00 às 20h00</p>
+                            <p>Sábado: 8h00 às 14h00</p>
+                        </div>
+                        <div class="form-contato">
+                            <section>
+                                <form method="post" action="#">
+                                    <div class="form">
+                                        <div class="nome">
+                                            <input type="text" name="name" id="contact-name" placeholder="Nome" />
+                                        </div>
+                                        <div class="email">
+                                            <input type="text" name="email" id="contact-email" placeholder="Email" />
+                                        </div>
+                                        <div class="numero">
+                                            <input type="text" name="numero" id="contact-numero" placeholder="Número" />
+                                        </div>
+                                        <div class="tratamento">
+                                            <select name="tratamento">
+                                                <option value="">Selecione o tratamento.</option>
+                                                <option value="bruxismo">Bruxismo</option>
+                                                <option value="canal">Tratamento de Canal</option>
+                                                <option value="protese">Prótese</option>
+                                                <option value="lente">Lente de Contato</option>
+                                            </select>
+                                        </div>
+                                        <div class="mensagem">
+                                            <textarea name="message" id="contact-message" placeholder="Mensagem"
+                                                rows="4"></textarea>
+                                        </div>
+                                        <div class="button">
+                                            <ul class="actions">
+                                                <li><input type="submit" class="style1" value="Enviar" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; Freire Odontologia | 2024
+    </footer>
+
+    <script src="../assets/js/display.js"></script>
+    <script src="../assets/js/submenu.js"></script>
+    <script src="../assets/js/mini-carousel.js"></script>
+</body>
+
+</html>

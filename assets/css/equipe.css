@@ -1,0 +1,61 @@
+body {
+    overflow-x: hidden;
+}
+
+#main {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.equipe {
+    background-color: #313131;
+    padding: 31px 0 0 0;
+    text-align: center;
+}
+
+.equipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0; 
+}
+
+.dentista {
+    position: relative;
+}
+
+.dentista img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover; 
+}
+
+.dentista .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 332px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.dentista:hover .info {
+    opacity: 1; 
+}
+
+.dentista .info h4 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.dentista .info p {
+    margin: 0;
+    font-size: 1em;
+}
